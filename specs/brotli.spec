@@ -7,7 +7,7 @@ License:                        MIT
 URL:                            https://github.com/google/brotli
 Source0:                        https://github.com/google/brotli/archive/v%{version}.tar.gz
 
-BuildRequires:  python2-devel python3-devel gcc-c++ gcc cmake
+BuildRequires:                  python2-devel python3-devel gcc-c++ gcc cmake
 
 %description
 Brotli is a generic-purpose lossless compression algorithm that compresses
