@@ -1,7 +1,6 @@
 Name:                           brotli
 Version:                        1.0.7
 Release:                        2%{?dist}
-Epoch:                          99
 Summary:                        Lossless compression algorithm
 
 License:                        MIT
@@ -118,7 +117,7 @@ cd ..
 %{_mandir}/man3/*
 
 %changelog
-* Sat Dec 15 2018 Kitsune Solar <kitsune.solar@gmail.com> - 99:1.0.7-2
+* Sat Dec 15 2018 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.7-2
 - Update from METASTORE.
 
 * Wed Nov 28 2018 Travis Kendrick pouar@pouar.net> - 1.0.7-1
