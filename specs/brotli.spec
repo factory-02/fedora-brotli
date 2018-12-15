@@ -23,7 +23,7 @@ It is similar in speed with deflate but offers more dense compression.
 
 %package -n python3-%{name}
 Requires: python3
-Summary:        Lossless compression algorithm (python 3)
+Summary:                        Lossless compression algorithm (python 3)
 %{?python_provide:%python_provide python3-%{name}}
 
 %description -n python3-%{name}
@@ -39,7 +39,7 @@ This package installs a Python 3 module.
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %package -n %{name}-devel
-Summary:        Lossless compression algorithm (development files)
+Summary:                        Lossless compression algorithm (development files)
 Requires: %{name}%{?_isa} = %{version}-%{release} 
 
 %description -n %{name}-devel
@@ -116,7 +116,6 @@ cd ..
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*
 %{_mandir}/man3/*
-
 
 %changelog
 * Sat Dec 15 2018 Kitsune Solar <kitsune.solar@gmail.com> - 99:1.0.7-2
