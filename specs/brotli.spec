@@ -17,7 +17,7 @@ to the best currently available general-purpose compression methods.
 It is similar in speed with deflate but offers more dense compression.
 
 # -------------------------------------------------------------------------------------------------------------------- #
-# Package: 
+# Package: python3-brotli
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %package -n python3-%{name}
@@ -34,7 +34,7 @@ It is similar in speed with deflate but offers more dense compression.
 This package installs a Python 3 module.
 
 # -------------------------------------------------------------------------------------------------------------------- #
-# Package: 
+# Package: brotli-devel
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %package -n %{name}-devel
