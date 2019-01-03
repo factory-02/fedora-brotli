@@ -2,9 +2,9 @@ Name:                           brotli
 Version:                        1.0.7
 Release:                        2%{?dist}
 Summary:                        Lossless compression algorithm
-
 License:                        MIT
 URL:                            https://github.com/google/brotli
+
 Source0:                        https://github.com/google/brotli/archive/v%{version}.tar.gz
 
 BuildRequires:                  python2-devel python3-devel gcc-c++ gcc cmake
@@ -39,7 +39,7 @@ This package installs a Python 3 module.
 
 %package -n %{name}-devel
 Summary:                        Lossless compression algorithm (development files)
-Requires: %{name}%{?_isa} = %{version}-%{release} 
+Requires: %{name}%{?_isa} = %{version}-%{release}
 
 %description -n %{name}-devel
 Brotli is a generic-purpose lossless compression algorithm that compresses
